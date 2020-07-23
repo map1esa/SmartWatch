@@ -1,8 +1,8 @@
-#Ignore Mac DS_Store files in all directories
+# Ignore Mac DS_Store files in all directories
 .DS_Store
 
 
-#Ignore EAGLE Board and schematic auto save files (.b#x and .s#x) in all directories 
+#Ignore EAGLE board and schematic auto save files (.b#x and .s#x) in all directories
 *.b#?
 *.s#?
 
@@ -10,3 +10,24 @@
 #Development file for making local changes to Arduino libraries
 #Ignore in all directories
 .development
+
+# Ignore temporary Microsoft Office files
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
